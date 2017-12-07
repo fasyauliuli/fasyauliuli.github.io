@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5fafe;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.index {
+    background-image: url(../images/camp.png);
+}
+
+.about {
+    background-image: url(../images/tree.png)
+}
+
+.hero {
+    padding-bottom: 102px;
+}
+
+.logo {
+    font-family: 'CocoBikeR';
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    padding: 15px 30px
+}
+
+nav ul {
+    position: absolute;
+    top: 28px;
+    right: 50px
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'TT Norms';
+    font-size: 22px;
+    padding: 0 15px
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none
+}
+
+
+.user {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.user figure img {
+    width: 160px
+}
+
+.user h1 {
+    font-family: 'Vidaloka';
+    font-size: 65px;
+    color: white
+}
+
+.bio {
+    font-family: 'TT Norms';
+    color: #c194a3;
+    font-size: 24px
+}
+
+.site-content {
+    width: 1135px;
+    margin: 45px auto
+}
+
+.daftar-hasil .col-md-4 {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.hasil {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 10px
+}
+
+.hasil figure img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px
+}
+
+.hasil-detail {
+    font-family: 'Bariol';
+    padding: 15px;
+}
+
+.hasil-detail h2 {
+    font-size: 24px
+}
+
+.hasil-detail p {
+    color: #757474
+}
+
+.hasil-detail h2, .hasil-detail p {
+    margin: 0
+}
+
+footer {
+    text-align: center;
+    background-color: #25142c;
+    color: white;
+    font-family: 'TT Norms';
+    padding: 20px 0
+}
+
+footer h2 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 300
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 35px;
+    display: inline-block;
+    width: 220px;
+    margin: 20px 0
+}
+
+footer > a:hover {
+    color: #25142c;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 35px
+
+}
+
+.sosmed {
+    margin: 12px 0
+}
+
+.sosmed figure {
+    display: inline
+}
+
+.sosmed figure img {
+    height: 28px;
+    margin: 20px
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover {
+    color: white
+}
+
+.nama {
+    text-align: center;
+    font-family: 'CocoBikeR';
+    font-size: 160px;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 145px;
+    padding-bottom: 96px
+}
+
+.content-profile {
+    margin: 60px 0
+}
+
+.content-profile p {
+    font-family: Bariol;
+    font-size: 20px;
+}
+
+.profile {
+    width: 600px;
+    text-align: center;
+    margin: auto
+}
+
+.profile > figure img {
+    width: 160px
+}
+
+.profile p {
+    margin: 25px 0
+}
+
+.skill {
+    width: 800px;
+    margin: auto
+}
+
+.what-can h2 {
+    font-family: Vidaloka;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    text-align: center
+}
+
+.what-can h3 {
+    font-family: TT Norms;
+    font-size: 26px
+}
+
+.col-md-6 {
+    margin-top: 25px
+}
