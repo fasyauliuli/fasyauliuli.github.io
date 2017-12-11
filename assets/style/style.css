@@ -3,21 +3,19 @@
 }
 
 body {
-    background-color: #f5fafe;
+    background-color:  #f5fafe
 }
 
 header {
-    background-repeat: no-repeat;
-    background-size: 100%;
     position: relative;
 }
 
 .index {
-    background-image: url(../images/camp.png);
+    background: url(../images/camp.png) no-repeat center top fixed;
 }
 
 .about {
-    background-image: url(../images/tree.png)
+    background: url(../images/tree.png) no-repeat center top fixed;
 }
 
 .hero {
@@ -82,7 +80,7 @@ nav ul li a:hover {
     margin: 45px auto
 }
 
-.daftar-hasil .col-md-4 {
+.daftar-hasil .col-lg-4 {
     padding-top: 30px;
     padding-bottom: 30px
 }
@@ -116,6 +114,19 @@ nav ul li a:hover {
     margin: 0
 }
 
+.hasil-detail h2 a {
+    text-decoration: none;
+    color: #252525
+}
+
+.garis {
+    background-color: #333333;
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 30px
+}
+
 footer {
     text-align: center;
     background-color: #25142c;
@@ -147,7 +158,8 @@ footer > a:hover {
     text-decoration: none;
     border: 2px solid white;
     background-color: white;
-    border-radius: 35px
+    border-radius: 35px;
+    transition: ease-in 0.5s;
 
 }
 
@@ -194,7 +206,7 @@ footer p a:hover {
 
 .content-profile p {
     font-family: Bariol;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .profile {
@@ -229,6 +241,56 @@ footer p a:hover {
     font-size: 26px
 }
 
+.what-can p {
+    margin: 0
+}
+
 .col-md-6 {
     margin-top: 25px
+}
+
+@media screen and (max-width: 1200px){
+    .site-content {
+        width: 100%
+    }
+
+    .row {
+        margin: 0 30px
+    }
+
+    .col-lg-4 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .skill {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:990px){
+    .skill {
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .user h1 {
+        font-size: 55px
+    }
+
+    .bio {
+        font-size: 20px
+    }
+
+    .col-lg-4 {
+        width: 100%
+    }
+
+    .profile{
+        width: 100%;
+        padding: 0 30px
+    }
 }
